@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import "./styles/font.css";
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #090910;
+}
+
+/* Utility classes */
+.transition-300 {
+  transition: all 0.3s ease;
+}
+.transition-200 {
+  transition: all 0.2s ease;
+}
